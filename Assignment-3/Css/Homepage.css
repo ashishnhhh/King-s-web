@@ -1,0 +1,90 @@
+/* navbar */
+
+.container-fluid {
+  --bs-gutter-x: 0rem !important;
+}
+
+.bg-custom{
+  background-color: #cea761;
+}
+
+
+/* header */
+
+.custom-header {
+  background: linear-gradient(to bottom, #cca55f, #e0bd7f);
+}
+
+
+.custom-header::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  transform: skew(0deg, -2deg);
+  position: absolute;
+  bottom: -75px;
+  right: 0;
+  transform-origin: left;
+  z-index: 1;
+}
+
+
+
+
+
+/* service */
+.feature-icon {
+  background-color: #cea761;
+}
+
+.feature>.text-link {
+  color: #cea761 !important;
+}
+
+.feature>.feature-icon {
+  color: #cea761;
+
+}
+
+/* we are help */
+.custom-pink {
+  background-color: #feedcb;
+}
+
+/* product */
+.custom-product {
+  background: linear-gradient(to bottom, #e0cca0, #bd9d60);
+  margin-top: 4.5rem;
+}
+
+.product-image{
+  border-radius: 2%;
+  box-shadow: #d2b47b  25px -15px 5px; z-index: 3;
+}
+
+
+
+/* carousel */
+
+.carousel-control-prev{
+transform: translate(20px);
+margin: 10px 50px 3px 60px;
+display: flex;
+}
+
+.carousel-control-next{
+  transform: translate(90px);
+  margin: -34.90px 50px 3px 60px;
+  display: flex;
+
+}
+
+
+
+
+/* copyright */
+.copyright-color {
+  color: #cea761;
+}
